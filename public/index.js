@@ -1,4 +1,4 @@
-import { io } from "https://cdn.socket.io/4.4.1/socket.io.esm.min.js";
+import { io } from "https://cdn.socket.io/4.5.1/socket.io.esm.min.js";
 let socket = io()
 socket.on("window.close", () => {
     window.close()
